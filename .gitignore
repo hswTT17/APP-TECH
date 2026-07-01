@@ -1,0 +1,18 @@
+# Android
+android/local.properties
+android/.gradle/
+android/**/build/
+android/.idea/
+android/*.iml
+android/captures/
+android/.cxx/
+android/.externalNativeBuild/
+
+# Cloudflare / Node
+backend/node_modules/
+backend/.wrangler/
+backend/.dev.vars
+node_modules/
+
+# OS
+.DS_Store

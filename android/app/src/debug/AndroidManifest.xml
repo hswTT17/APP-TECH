@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Debug builds only: allow plain HTTP so the app can talk to a local
+         `wrangler pages dev` server (http://10.0.2.2:8788) during development.
+         Release builds keep cleartext traffic blocked. -->
+    <application android:usesCleartextTraffic="true" />
+</manifest>

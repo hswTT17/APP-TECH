@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cd \"${CLAUDE_PROJECT_DIR:-.}\" && git add -A && git diff --cached --quiet || { git commit -m \"Auto-commit: $(date -u +%Y-%m-%dT%H:%M:%SZ)\" && git push; } 2>/dev/null; true",
+            "statusMessage": "Auto-pushing changes to GitHub..."
+          }
+        ]
+      }
+    ]
+  }
+}

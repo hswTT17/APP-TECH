@@ -1,0 +1,29 @@
+[
+  {
+    "id": "example-app",
+    "name": "예시 앱 (링크를 보내주시면 실제 데이터로 교체됩니다)",
+    "link": "https://play.google.com/store/apps/details?id=com.example.app",
+    "iconUrl": null,
+    "category": "예시",
+    "benefits": [
+      {
+        "title": "신규 가입 축하 포인트",
+        "description": "앱을 처음 설치하고 가입하면 지급되는 혜택입니다.",
+        "howTo": [
+          "앱스토어에서 앱 설치",
+          "전화번호로 회원가입",
+          "친구 추천인 코드 입력 (있다면)",
+          "지급된 포인트/캐시 확인"
+        ]
+      },
+      {
+        "title": "출석체크 리워드",
+        "description": "매일 앱을 켜서 출석하면 소액의 포인트를 받을 수 있습니다.",
+        "howTo": [
+          "앱 홈 화면의 출석체크 버튼 탭",
+          "연속 출석 시 보너스 포인트 지급"
+        ]
+      }
+    ]
+  }
+]
